@@ -38,6 +38,7 @@ public class Test_3 extends TestBase {
 
         String searchSlogan5 = searchSlogan2.getText().replace("click to clear filters","");
         //System.out.println("searchSlogan2 = " + searchSlogan5);
+        //
 
         String text = "Showing 0 of 3 customers filtered by term \"" + info + "\" in Name column without match case.";
         String expected = searchSlogan1.getText()+" "+searchSlogan5;
